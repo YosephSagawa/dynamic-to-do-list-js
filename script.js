@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function addTask(){
         const taskText  = taskInput.value.trim();
-        if(taskText = ""){
+        if(taskText === ""){
             alert("Please enter a task:");
             return;
         }else{
@@ -32,5 +32,4 @@ document.addEventListener('DOMContentLoaded', function() {
             addTask();
         }
     });
-
 });
